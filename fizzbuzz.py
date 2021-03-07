@@ -9,8 +9,12 @@ def fb():
 
     while i <= 100:
 
+        # Replace multiples of 15 with FizzBuzz
+        if i % 15 == 0:
+           toAdd = "FizzBuzz"
+
         # Replace multiples of 3 with Fizz
-        if i % 3 == 0:
+        elif i % 3 == 0:
             toAdd = "Fizz"
 
         # Replace multiples of 5 with Buzz
